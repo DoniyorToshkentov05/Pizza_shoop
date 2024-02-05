@@ -1,0 +1,46 @@
+.root{
+   :global{
+        .selected{
+      background-color:#000000;
+      
+     }
+   }
+   margin-top: 80px;
+   display: flex;
+   width: 100%;
+  gap: 20px;
+   align-items: center;
+   li{
+      
+     
+      border-radius: 10px;
+      background-color: #FF9921;
+     cursor: pointer;
+    
+      a{
+      text-align: center;
+         padding: 10px 25px;
+         display: flex;
+         width: 100%;
+          color: #fff;
+      font-size: 18px;
+      }
+   }
+@media (max-width:540px) {
+   margin-top: 30px;
+   gap: 10px;
+   li{
+      
+     
+     
+      a{
+         padding: 8px 15px;
+        
+      font-size: 10px;
+      }
+   }
+ }
+
+}
+
+

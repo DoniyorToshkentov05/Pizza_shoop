@@ -1,0 +1,133 @@
+@import '../variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.header {
+  width: 110%;
+  border-bottom: 1px solid $gray-line;
+  padding: 40px 0;
+.card-img2{
+  margin-top: -25.8%;
+  margin-left: 625px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  &__logo {
+    display: flex;
+
+    img {
+      margin-right: 15px;
+    }
+
+    h1 {
+      color: #c4c4c4;
+      font-size: 14px;
+      letter-spacing: 1%;
+      font-family: 'Roboto', sans-serif;
+    
+      font-weight: 800;
+    }
+
+    p {
+      color: #000000;
+      font-size: 24px;
+      font-weight: 700;
+     
+    }
+  }
+  .card-box{
+    width: 1024px;
+    height: 326px;
+    border-radius: 40px;
+    background-color: #2F2F2F;
+  .h2-t{
+    margin-left: 45px;
+    margin-top: 45px;
+    width: 30%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    span{
+      font-family: 'Roboto', sans-serif;
+      color: #FF9921;
+    }
+  }
+  .h5-t{
+    width: 40%;
+    color: rgb(173, 167, 167);
+    margin-left: 45px;
+    margin-top: 15px;
+
+  }
+  .but-card{
+    width: 161px;
+    height: 50px;
+    border-radius: 15px;
+    background: #FF9921;
+    border: none; 
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 45px;
+    margin-top: 30px;
+  }
+  }
+
+}
+
+@media (max-width:680px) {
+  .header {
+    border-bottom: 1px solid $gray-line;
+    padding: 18px 0;
+ 
+    
+  
+    &__logo {
+      
+  
+      img {
+        margin-right: 5px;
+        width: 70px;
+        height: 70px;
+      }
+      h1,
+      p {
+       display: none;
+      }
+    }
+  }
+}
+
+@media (max-width:540px) {
+  .header {
+    border-bottom: 1px solid $gray-line;
+    padding: 18px 0;
+ 
+    
+  
+    &__logo {
+      margin-left: 10px;
+  
+      img {
+       
+        width: 40px;
+        height: 40px;
+      }
+      h1,
+      p {
+       display: none;
+      }
+    }
+  }
+}
+
+
+
